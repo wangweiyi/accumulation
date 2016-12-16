@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "command": "npm.cmd", //在windows下npm的执行名是npm.cmd而非npm
+  "isWatching": true,
+  "showOutput": "always",
+  "suppressTaskName": true, 
+  "tasks": [{
+      "taskName": "start",
+      "args": [
+        "start"
+      ]
+    }
+  ]
+}
